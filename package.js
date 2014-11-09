@@ -1,6 +1,6 @@
 Package.describe({
   summary: 'Login service for Last.FM accounts',
-  version: '1.0.1',
+  version: '1.0.2',
   name: 'danopia:accounts-lastfm',
   git: 'https://github.com/danopia/meteor-accounts-lastfm.git',
 });
@@ -11,7 +11,7 @@ Package.on_use(function (api) {
   api.imply('accounts-base', ['client', 'server']);
   api.use('accounts-oauth', ['client', 'server']);
 
-  api.use('danopia:lastfm@1.0.1', ['client', 'server']);
+  api.use('danopia:lastfm@1.0.2', ['client', 'server']);
   api.imply('danopia:lastfm', ['server']);
 
   api.add_files('lastfm_login_button.css', 'client');
