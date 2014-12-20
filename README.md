@@ -1,4 +1,6 @@
 # danopia:accounts-lastfm
+
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/danopia/meteor-accounts-lastfm?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Last.fm oauth-style account login for your Meteor app. Integrates via the `accounts-oauth` package, like the default auth providers.
 
 ## Usage
